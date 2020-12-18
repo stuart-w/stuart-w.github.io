@@ -25,8 +25,11 @@ body {
 
 header {
   background: $col-border;
-  max-width: 32rem;
   margin: 0 auto;
+}
+
+.header-container {
+  max-width: 32rem;
   padding: 1rem .5rem;
 }
 
