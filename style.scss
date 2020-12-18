@@ -25,12 +25,12 @@ body {
 
 header {
   background: $col-border;
-  margin: 0 auto;
 }
 
 .header-container {
-  max-width: 32rem;
-  padding: 1rem .5rem;
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 1rem 0;
 }
 
 .header-logo {
@@ -70,24 +70,24 @@ header {
 
 main {
   display: block;
-  max-width: 32rem;
+  max-width: 36rem;
   margin: 0 auto;
   padding: 2rem;
 }
 
 * + * {
-  margin-top: 1.5rem;
+  margin-top: $line-height-default;
 }
 
 p + p {
-  margin-top: 0.75rem;
+  margin-top: calc($line-height-default / 2);
 }
 
 li + li {
-  margin-top: 0.25rem;
+  margin-top: calc($line-height-default / 4);
 }
 .post + .post {
-  padding-top: 1.5rem;
+  padding-top: $line-height-default;
   border-top: 1px solid $col-border;
 }
 
@@ -136,7 +136,7 @@ h3 {
 }
 
 h3 + p {
-  margin-top: 0.5rem;
+  margin-top: calc($line-height-default / 2);
 }
 
 blockquote {
